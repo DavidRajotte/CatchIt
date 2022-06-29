@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>ShapeGame</title>
+		<title>CatchIt</title>
 		<style>
 			html,
 			body {
@@ -42,12 +42,12 @@
 			<script src="Build/GameBuild.loader.js"></script>
 			<script>
 				createUnityInstance(document.querySelector("#unity-canvas"), {
-					dataUrl: "Build/GameBuild.data.br",
-					frameworkUrl: "Build/GameBuild.framework.js.br",
-					codeUrl: "Build/GameBuild.wasm.br",
+					dataUrl: "Build/GameBuild.data",
+					frameworkUrl: "Build/GameBuild.framework.js",
+					codeUrl: "Build/GameBuild.wasm",
 					streamingAssetsUrl: "StreamingAssets",
 					companyName: "DavidRajotte",
-					productName: "ShapeGame",
+					productName: "CatchIt",
 					productVersion: "1.0",
 				}).then(function (instance) {
 					var canvas = instance.Module.canvas;
